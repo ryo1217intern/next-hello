@@ -54,7 +54,7 @@ const Hello = () => {
             Hello World with Next.JS
         </div>
     );
-    };
+};
 
 export default Hello;
 ```
