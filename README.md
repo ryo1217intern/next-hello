@@ -56,7 +56,7 @@ const Hello = () => {
     );
     };
 
-    export default Hello;
+export default Hello;
 ```
 この子コンポーネントを親コンポーネントであるpage.tsxに渡すにはpage.tsxを次のように変更する。
 ```page.tsx
