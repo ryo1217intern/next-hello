@@ -28,3 +28,16 @@ export default function Home() {
   );
 };
 ```
+
+6. TailwindCSSを使ってテキストを装飾する。
+
+要素を真ん中にするには次のようにする。
+```
+className="h-screen w-screen flex justify-center items-center"
+```
+
+テキストのサイズを変更するには次のようにする。
+
+```
+className="text-8xl text-bold"
+```
