@@ -10,7 +10,7 @@ git push origin master #ここで初めてリモートリポジトリにpushす�
 ```
 ### yarn create next-appをおこなう
 ```
-yarn create-app
+yarn create next-app
 ```
 をすることによって現在いるディレクトリ内にNext.JS環境を作ることができる。
 
