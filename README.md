@@ -13,3 +13,16 @@ git push origin master #ここで初めてリモートリポジトリにpushす�
 yarn create-app
 ```
 をすることによって現在いるディレクトリ内にNext.JS環境を作ることができる。
+4. page.tsxが基本的な画面を表示しているので必要のないファイルを削除する。
+5. page.tsxを次のように編集する。
+``` page.tsx
+export default function Home() {
+  return (
+    <main>
+      <p>
+        Hello World Next.JS
+      </p>
+    </main>
+  );
+};
+```
